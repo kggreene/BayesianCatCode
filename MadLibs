@@ -1,0 +1,8 @@
+import random
+
+class POSWordList:
+#gives a part of speech or word type, e.g. noun and a list of words of that type 
+    def __init__(self,POS,wordList):
+    #better to make words a list or a set? I think I won't use list functionality. Better to store as Dict? We'll see.
+        self.POS=POS
+        self.wordList=wordList
