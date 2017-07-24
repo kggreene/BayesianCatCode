@@ -1,3 +1,8 @@
+#Makes a Bayesian Cats 'Mad Libs' sentence for BayesianCats twitterbot
+#Takes a sentence about Bayesian statistics and a cat related word list (or cat sentence and Bayesian word list) 
+#and replaces certain words based on part of speech. Currently no ML to get parts of speech.
+#Parts of speech of words to replace are stored with list of sentences/words.
+
 import random
 
 class POSWordList:
