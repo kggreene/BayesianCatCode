@@ -1,7 +1,8 @@
-#Makes a Bayesian Cats 'Mad Libs' sentence for BayesianCats twitterbot
+#Module for Bayesian Cat Bot project with Bri http://twitter.com/bayesiancats
+
+#Makes a Bayesian Cats 'Mad Libs' sentence for BayesianCats twitterbot: http://twitter.com/bayesiancats
 #Takes a sentence about Bayesian statistics and a cat related word list (or cat sentence and Bayesian word list) 
-#and replaces certain words based on part of speech. Currently no ML to get parts of speech.
-#Parts of speech of words to replace are stored with list of sentences/words.
+#and replaces certain words based on part of speech. Words to replace for each sentence are hand selected and labeled by POS. 
 
 import random
 
@@ -29,7 +30,8 @@ class MadLibsSentence:
         
     def replaceAll(self):
     #As written, makes replacements for all word types/parts of speech that appear in both our remove and add dictionaries
-    #We could write a method letting us choose which types to replace, so for the same sentence we could choose to replace e.g. either nouns or adjectives
+    #We could write a method letting us choose which types to replace, so for the same sentence we could choose to replace 
+    #e.g. either nouns or adjectives
         self.sentenceNew=self.sentenceOriginal
         #checks for wordType in both the remove dict and the add dict
         for wordType in self.POSDictRemove.keys():
