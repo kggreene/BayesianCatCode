@@ -5,14 +5,12 @@ code for blending Bayesian statistics and cats in a Twitter chatbot
 Mad Libs - replaces words in Bayesian sentence with cat words (and other way around) based on part of speech. 
 
 ### Bayesian Mad Libs Examples
-Starting with:
+##### Starting with:
 A Bayesian network is a graphical model that encodes probabilistic relationships among variables of interest. (Nouns to replace: network, model; plural nouns to replace: relationships, variables) 
  
-Example replacements:
+##### Example replacements:
 A Bayesian laser pointer is a graphical scratching post that encodes probabilistic fish among socks of interest. 
-
 A Bayesian scratching post is a graphical fish that encodes probabilistic birds among salmon treats of interest. 
-
 A Bayesian bird is a graphical feather toy that encodes probabilistic cat beds among flattened ears of interest. 
 
 ### NLP/POS automated noun identification
